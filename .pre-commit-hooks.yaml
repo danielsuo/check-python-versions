@@ -1,0 +1,8 @@
+- id: check-python-versions
+  name: check-python-versions
+  description: Checks python versions in setup.py, tox.ini, appveyor.yml, and .travis.yml
+  entry: check-python-versions
+  language: python
+  always_run: true
+  pass_filenames: false
+  args: ['.']
